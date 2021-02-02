@@ -30,7 +30,7 @@ void loop() {
   Serial.print(temperatureF, 2);
   Serial.println(" F");
 
-  delay(5000);
+  delay(2000);
 }
 
 float getVoltage(int pin) {
